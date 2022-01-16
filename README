@@ -1,0 +1,14 @@
+What's new:
+- run_evaluation_recognition.py
+- config_recognition.json
+- metrics/evaluation_recognition.py
+- feature_extractors/
+- data/perfectly_detected_ears/
+- data/ears/annotations/recognition/ (class annotations are stored here)
+
+FOR TESTING:
+Use your own predictions from the previous task as the input for recognition - copy detected images into "data/<yourdetectorsname>" (like "data/perfectly_detected_ears"). If your detector perfomed poorly or you would like to start from scratch, feel free to use "data/perfectly_detected_ears" directly.
+
+FOR TRAINING:
+Use "data/perfectly_detected_ears" to train/prepare your model/approach.
+
